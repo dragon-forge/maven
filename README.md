@@ -6,8 +6,8 @@ Quite simply, add this repository to the build path as following:
 ```gradle
 repositories {
     maven {
-        name = "DragonForge"
-        url = "https://raw.github.com/dragon-forge/maven/master"
+        name = "Zeith Maven"
+        url = "https://maven.zeith.org"
     }
 }
 ```
@@ -16,7 +16,7 @@ repositories {
 And then add the following line to dependencies:
 ```gradle
 dependencies {
-	deobfCompile "tk.zeitheron.X:X-MC:MV:deobf"
+	deobfCompile "org.zeith.X:X-MC:MV:deobf"
 }
 ```
 (where X might be anything, MC is minecraft version and MV is mod version)
@@ -25,13 +25,13 @@ HammerLib example for 1.12.2:
 ```gradle
 repositories {
     maven {
-        name = "DragonForge"
-        url = "https://raw.github.com/dragon-forge/maven/master"
+        name = "Zeith Maven"
+        url = "https://maven.zeith.org"
     }
 }
 
 dependencies {
-	deobfCompile "tk.zeitheron.HammerLib:HammerLib-1.12.2:2.0.6.14:deobf"
+	deobfCompile "org.zeith.HammerLib:HammerLib-1.12.2:12.2.47"
 }
 ```
 
